@@ -2,9 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Navbar from './Navbar';
 import SongsCard from './SongsCard';
 import { useAuth } from '../contexts/AuthContext';
-import CrearSongs from './ModalSongs/ModalCrear';
-import DeleteSongModal from './ModalSongs/ModalDelete';
-import ModifySong from './ModalSongs/ModalModificar';
+
 
 export default function SongsPage() {
     const [page, setPage] = useState(1);
