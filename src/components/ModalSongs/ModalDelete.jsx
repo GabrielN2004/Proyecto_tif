@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import 'bulma/css/bulma.min.css';
 import '../../components/styles/App.css';
-import { useAuth } from '../../contexts/AuthContext';
 import SongsCard from '../SongsCard';
+import { useAuth } from '../../contexts/AuthContext';
 
 export default function DeleteSongModal({ isOpen, onClose }) {
     const [page, setPage] = useState(1);
