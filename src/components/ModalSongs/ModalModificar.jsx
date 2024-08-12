@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import 'bulma/css/bulma.min.css';
-import { useAuth } from '../../contexts/AuthContext';
+
 import useFetch from '../../hooks/useFetch';
 import SongsCard from '../SongsCard';
+import { useAuth } from '../../contexts/AuthContext';
 
 export default function ModifySong({ isModificarOpen, OnCloseModificar }) {
     const [page, setPage] = useState(1);
